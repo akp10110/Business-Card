@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Business Card</string>
+    <string name="developer_name">Jennifer Doe</string>
 </resources>

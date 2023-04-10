@@ -20,6 +20,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -78,7 +79,7 @@ fun LogoNameAndTitle(modifier: Modifier = Modifier) {
                 .height(80.dp)
         )
         Text(
-            text = "Jennifer Doe",
+            text = stringResource(R.string.developer_name),
             fontSize = 42.sp,
             color = Color.White,
             modifier = modifier.padding(12.dp)
